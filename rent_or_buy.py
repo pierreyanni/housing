@@ -2,7 +2,6 @@ from datetime import datetime, date
 from dateutil.relativedelta import relativedelta
 import numpy as np
 
-
 class Scenario:
     def __init__(self, capital, housing_budget, monthly_rent, house_price, downpayment,
                  housing_gr_rate, rent_gr_rate, mortgage_rate, return_rate,
